@@ -1,0 +1,8 @@
+.font {
+  color: black !important;
+  cursor: pointer;
+}
+
+.hover__effect :hover {
+  color: #f50057 !important;
+}

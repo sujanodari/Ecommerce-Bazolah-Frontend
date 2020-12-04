@@ -1,0 +1,67 @@
+.login__top {
+  display: flex;
+  background-color: #f2f2f2;
+  height: 51px;
+  align-items: center;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.login__topLeft {
+  display: flex;
+  align-content: center;
+  flex: 1;
+}
+
+.login__topSpan {
+  color: #2d2d2d;
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 20px;
+  cursor: pointer;
+}
+path {
+  cursor: auto;
+}
+.login__topSpan :hover {
+  color: cadetblue;
+}
+.login__searchDiv {
+  display: flex;
+}
+
+.login__searchInput {
+  height: 12px;
+  padding: 10px;
+  flex: 4;
+  height: 28px;
+  border: 1px solid beige;
+  width: 100%;
+}
+
+.login__searchIcon {
+  padding: 5px;
+  height: 39px !important;
+  background-color: #cd9042;
+}
+.login__topRightCenter {
+  padding-left: 11px;
+  padding-right: 8px;
+}
+.login__topRight {
+  display: flex;
+  align-content: center;
+  border-right: 1px solid #ddd;
+}
+
+.login__search {
+  display: flex;
+  align-content: space-around;
+  background-color: #ffff;
+  align-items: center;
+}
+
+.login__searchIcon :hover {
+  cursor: pointer;
+}
